@@ -1,0 +1,141 @@
+#container {
+  margin: 0px;
+  width: 65.4%;
+  //border: 1px solid #666666;
+  padding: 0px;
+  height: auto;
+  margin-left: 11%;
+}
+
+#leftcol {
+  font-size: 12px;
+  width: 18%;
+  float: left;
+}
+
+#leftcol .user {
+  padding: 0.5px 53px 1px 2px;
+  float: left;
+}
+#leftcol .user:hover {
+  border-radius: 3px;
+  background-color: #f6f7f9;
+}
+
+#leftcol .user a {
+  color: #000000;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#leftcol .user a:hover{
+  float: left;
+}
+
+#leftcol .user img {
+  padding-top: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+#leftcol .user span {
+  vertical-align: top;
+  line-height: 25px;
+  padding-left: 3px;
+}
+
+#leftcol .row2 {
+  float: left;
+  margin-top: 10px;
+}
+
+#leftcol .row2 .news {
+  border-radius: 3px;
+  background-color: #f6f7f9;
+  overflow: hidden;
+  padding: 0px 84px 0px 0px;
+  float: left;
+}
+#leftcol .news img {
+  padding-top: 0px;
+  width: 26px;
+  color: #3b5998;
+}
+#leftcol .news a {
+  color: #000000;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#leftcol .row2 .news span {
+  vertical-align: top;
+  line-height: 29px;
+  font-weight: bold;
+  padding-left: 3px;
+}
+
+#leftcol .row2 .msgr {
+  margin-top: 1px;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 0px 84px 0px 0px;
+  float: left;
+  cursor: pointer;
+}
+#leftcol .row2 .msgr:hover{
+  background-color: #f6f7f9;
+}
+#leftcol .msgr img {
+  padding-top: 0px;
+  width: 26px;
+  color: #3b5998;
+}
+#leftcol .msgr a {
+  color: #000000;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#leftcol .msgr span {
+  vertical-align: top;
+  line-height: 29px;
+  padding-left: 3px;
+}
+
+#leftcol .row3 {
+  float: left;
+  margin-top: 2px;
+}
+#leftcol .row3 h4{
+  padding-left: 3px;
+  float: left;
+  font-size: 12px;
+  color: #4d4d4d;
+}
+
+#leftcol .row3 .news {
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 0px 84px 0px 0px;
+  float: left;
+  cursor: pointer;
+}
+#leftcol .row3 .msgr {
+  margin-top: 1px;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 0px 84px 0px 0px;
+  float: left;
+  cursor: pointer;
+}
+#leftcol .row3 .news span {
+  vertical-align: top;
+  line-height: 29px;
+  padding-left: 3px;
+}
+#leftcol .row3 .news:hover{
+  background-color: #f6f7f9;
+}
+#leftcol .row3 .msgr:hover{
+  background-color: #f6f7f9;
+}

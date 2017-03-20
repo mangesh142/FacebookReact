@@ -1,0 +1,359 @@
+
+#center-coll {
+  overflow: hidden;
+  float: left;
+  margin: 0px;
+  width: 52%;
+  // border: 1px solid #666666;
+  padding: 0px;
+  margin-left: 8px;
+}
+
+#center-coll .centerCollCls {
+  overflow: hidden;
+  float: left;
+
+  width: 99.5%;
+  border: 0.5px solid #d6d7db;
+  padding: 0px;
+}
+#posthead {
+  background-color: #f6f7f9;
+  margin: 0px;
+  height: 30px;
+}
+#posthead .create {
+
+  padding: 6px 0px 0px 9px ;
+  float: left;
+  font-size: 12px;
+  color: #4b4f56;
+  font-weight: bold;
+}
+#posthead .create .img {
+  font-size: 14px;
+}
+#posthead .create .text {
+  padding-right: 10px;
+  border-right: 1px solid #ced0d4;
+}
+
+#posthead .create .img2 {
+  font-size: 14px;
+  color: #4b4f56;
+}
+#posthead .create .text2 {
+  padding-right: 10px;
+  color: #3658a5;
+}
+
+#editor {
+  //margin-top: 1.5px;
+  background-color: #ffffff;
+  height: 60px;
+}
+#editor .postEditor .img{
+  float: left;
+  padding: 9px 0px 0px 9px;
+}
+#editor .postEditor .text {
+  margin-top: 17px;
+  float: left;
+}
+#editor .postEditor .text input {
+  float: left;
+  color: #000000;
+  font-size: 15px;
+  border: 0px solid #ccc;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+  padding: 0px 10px;
+  margin-left: 7px;
+  width: 400px;
+  height: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+#buttons {
+  overflow: hidden;
+  background-color: #f6f7f9;
+  //margin-top: 1.5px;
+  height: 40px;
+
+}
+
+#buttons .btn {
+  margin-top: 9px;
+  margin-right: 10px;
+  float: right;
+
+}
+
+#buttons .btn .public {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  color: #4b4f56;;
+  padding: 2px 3px 3px 9px;
+  margin: 15px;
+  border: 1px solid #ced0d4;
+  border-radius: 3px;
+}
+#buttons .btn button {
+  color: #ffffff;
+  overflow: hidden;
+  padding: 5.6px 20px;
+  border: none;
+  background-color: #4267b2;
+  white-space: nowrap;
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#news {
+  margin-top: 10px;
+  background-color: #ffffff;
+  height: auto;
+}
+
+#news .postHead {
+  float: left;
+  padding: 12px 0px 0px 9px ;
+}
+#news .img img {
+  float: left;
+  width: 40px;
+}
+#news .name {
+  padding-left: 10px;
+  float: left;
+  vertical-align: top;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #365899;
+}
+#news .postHead .name .comment {
+  float: left;
+  color: #90949c;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#news .rightMenu{
+  padding-right: 10px;
+  padding-top: 10px;
+  float: right;
+  color: #d7dade;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#news .post {
+  width: 98%;
+  overflow: hidden;
+  float: left;
+  padding-left: 10px;
+  font-size: 14px;
+  height: auto;
+}
+#news .post .msg {
+  float: left;
+}
+#news .post .postImg {
+  float: left;
+}
+
+#news .post .postImg img{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#news .reactTab {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 8px;
+  width: 96%;
+  border-top: 1px solid #d9d9d9;
+  float: left;
+  color: #90949c;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+}
+
+#news .reactTab .reactLow {
+  float: left;
+}
+#news .reactTab .like {
+  cursor: pointer;
+}
+#news .reactTab .like:hover {
+  color: #787d87;
+  text-decoration: underline;
+}
+#news .reactTab .comment {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+#news .reactTab .comment:hover {
+  color: #787d87;
+  text-decoration: underline;
+}
+#news .reactTab .share {
+  margin-left: 40px;
+  cursor: pointer;
+}
+#news .reactTab .share:hover {
+  color: #787d87;
+  text-decoration: underline;
+}
+
+#newsFeed .reactBox{
+  border: 0.5px solid #d6d7db;
+  width: 99.5%;
+  background-color: #f6f7f9;
+  float: left;
+  height: auto;
+}
+#newsFeed .reactBox .likeCount {
+  width: 99.5%;
+  float: left;
+  padding: 10px 0px 4px 6px;
+  float: inherit;
+  font-size: 12px;
+  color: #365899;
+  overflow: visible;
+}
+
+#newsFeed .reactBox .likeCount .content {
+  float: left;
+}
+#newsFeed .likeCount img {
+  width: 20px;
+  height: 20px;
+}
+#newsFeed .likeCount span {
+  vertical-align: top;
+  line-height: 23px;
+}
+#newsFeed .commentCount {
+  width: 99.5%;
+  float: left;
+  padding: 0px 0px 8px 14px;
+  float: inherit;
+  height: auto;
+  overflow: visible;
+}
+#newsFeed .reactBox .img img{
+  float: left;
+  width: 8%;
+}
+#newsFeed .reactBox .content .img img{
+  float: left;
+  width: 85%;
+}
+#newsFeed .commentCount .img {
+  float: left;
+}
+#newsFeed .commentCount .cmtEditor {
+  overflow: hidden;
+  float: left;
+  width: 85%;
+  border: 0.5px solid #d6d7db;
+  padding: 0px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #ffffff;
+}
+#newsFeed .commentCount .cmtEditor .icon {
+  line-height: 32px;
+  margin-right: 10px;
+  color: #bfbfbf;
+  float: right;
+}
+#newsFeed .commentCount .cmtEditor .input {
+  padding-top: 0px;
+}
+#newsFeed .commentCount input{
+  vertical-align: top;
+  line-height: 32px;
+  float: left;
+
+  padding-left: 5px;
+  //padding-right: 210px;
+  width: 360px;
+  color: #000000;
+  font-size: 12px;
+  border: 0px solid #ccc;
+  outline: none;
+
+  overflow: hidden;
+  position: relative;
+}
+
+#newsFeed .reactBox .Allcomments {
+
+  padding: 10px 0px 8px 6px;
+  float: inherit;
+  height: auto;
+  overflow: visible;
+  border-top: 1px solid #d6d7db;
+  margin-left: 8px;
+  width: 95%;
+}
+
+
+#newsFeed .reactBox .Allcomments .cmt {
+
+  float: left;
+  margin-bottom: 8px;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+#newsFeed .reactBox .Allcomments .cmt .usrContent {
+  //border: 1px solid #666666;
+  padding-left: 5px;
+  float: left;
+  width: 80%;
+  height: auto;
+  vertical-align: top;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #365899;
+  // word-wrap: break-word;
+}
+
+#newsFeed .reactBox .Allcomments .cmt .name {
+  float: left;
+  padding-left: 5px;
+  /* //float: left;
+   vertical-align: top;
+   line-height: 14px;
+   font-size: 14px;
+   font-weight: bold;
+   color: #365899;*/
+}
+#newsFeed .reactBox .Allcomments .cmt .comment {
+  float: left;
+  font-weight: normal;
+  font-size: 12px;
+  padding-left: 5px;
+  color: #000000;
+}
+#newsFeed .reactBox .Allcomments .cmt .rect {
+  padding-left: 5px;
+  float: left;
+  padding-top: 5px;
+  color: #365899;
+  font-weight: normal;
+  font-size: 12px;
+}
