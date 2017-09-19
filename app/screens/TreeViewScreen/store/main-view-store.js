@@ -58,7 +58,7 @@ var TreeViewStore = (function () {
         var aComments = oPostData.reaction.comments;
         var oNewComment = {
           name: "Mangesh Darekar",
-          imgUrl: "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-1/p40x40/15941249_2414066825313666_9146792314046365649_n.jpg?oh=7a847b4640fe5d7d109f9387e4b597c8&oe=5940434A",
+          imgUrl: "img/profile-head.jpg",
           comment: sNewComment
         };
         aComments.push(oNewComment);

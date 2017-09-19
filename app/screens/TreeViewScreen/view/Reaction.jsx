@@ -64,7 +64,7 @@ var Reaction = React.createClass({
               <div className="content">
                 <span className="img">
                 <img
-                    src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-1/p40x40/15941249_2414066825313666_9146792314046365649_n.jpg?oh=7a847b4640fe5d7d109f9387e4b597c8&oe=5940434A"/>
+                    src="img/profile-head.jpg"/>
                 </span>
                 <div className="cmtEditor">
                   <span className="input">
