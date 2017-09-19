@@ -33,7 +33,7 @@ var TreeViewAction = (function () {
   var handleEditorPostClicked = function (oContext, sPost) {
     console.log(sPost);
     MainViewStore.handleEditorPostClicked(sPost);
-  }
+  };
 
   return {
     //Register Event Listener
