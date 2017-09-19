@@ -18,4 +18,5 @@ gradlew
 .DS_Store
 /extLibs
 *.hprof
+/node_modules
 gradle.properties
